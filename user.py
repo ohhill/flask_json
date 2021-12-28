@@ -14,7 +14,7 @@ users =  {"user_1": {"first_name": "John", "last_name": "Wick"},
 users = {}
 
 
-@user.route('/', methods=['POST', 'GET', 'PUT', 'UPDATE', ])
+@user.route('/', methods=['POST', 'GET', 'PUT', 'UPDATE', 'DELETE'])
 def login():
     if request.method == 'POST':
         '''
